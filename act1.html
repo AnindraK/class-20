@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //method
+        var name= "CoDinGal"
+        document.write(name.toUpperCase());
+        document.write("<br>");
+        document.write(name.toLowerCase());
+        document.write("<br>");
+        document.write("name starts with u : " + name.startsWith("C"))
+
+
+        // Regular expression
+        var str1 = "I love Codingal"
+        var str2 = new RegExp("Coding");
+        var result = str2.test(str1);
+        document.write("<br>");
+        document.write(result);
+        document.write("<br>");
+
+        let a = str1.replace(/coding/i, "cycling")
+        document.write(a);
+        document.write("<br>");
+
+        var x = 7.35976592863592695625
+        document.write(Math.floor(x))
+        document.write("<br>");
+        var y = Math.random()
+        document.write(y)
+        //date
+
+
+
+    </script>
+</body>
+</html>
